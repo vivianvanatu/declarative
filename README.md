@@ -14,6 +14,7 @@ This project illustrates the declarative approach versus the procedural approach
 
     `ng serve`
 
+Go to [Using A Declarative Approach When Retrieving Data With RxJS Observables](https://wepri.net/blog/using-a-declarative-approach-when-retrieving-data-with-rxjs-observables) to read the explanations. Procedural approach code is commented and you need to import and inject the proper depedencies if you are using the commented code.
 _____________________________________________________________________________________________________
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.8.
