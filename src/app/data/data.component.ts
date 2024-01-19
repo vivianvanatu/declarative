@@ -1,8 +1,7 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { Component } from '@angular/core';
 import { DataService } from '../data.service';
 import { AsyncPipe, NgFor, NgIf } from '@angular/common';
 import { EMPTY, catchError, tap } from 'rxjs';
-//import { EventBusService } from '../eventbus.service';
 
 @Component({
   selector: 'app-data',
@@ -10,23 +9,13 @@ import { EMPTY, catchError, tap } from 'rxjs';
   imports: [AsyncPipe, NgFor, NgIf],
   templateUrl: './data.component.html',
   styleUrl: './data.component.css',
-  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class DataComponent{
 
   errorMessage = '';
   // sub!: Subscription;
 
-  constructor(private dataService: DataService, 
-    //private eventBus: EventBusService
-    ) {}
-  
-  /*ngOnInit() {
-    // Subscribe to the productClick$ observable
-    this.eventBus.productClick$.subscribe((productData) => {
-      console.log('Product Clicked:', productData);
-    });
-  }*/
+  constructor( private dataService: DataService ) {}
 
   readonly products$ = this.dataService.products$
     .pipe(
@@ -37,10 +26,6 @@ export class DataComponent{
       })
     );
 
-    // onClick(productData: any) {
-    //   // Emit the product data to the event bus
-    //   this.eventBus.emitProductClick(productData);
-    // }
   // ngOnInit() {
   //   this.getDataFromApi();
   // }
