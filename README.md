@@ -1,4 +1,20 @@
-# Declarative
+# Declarative vs Procedural Approach on RxJS Observables
+
+This project illustrates the declarative approach versus the procedural approach when using RxJS Observables.
+
+1. Clone the repo:
+
+`git clone https://github.com/vivianvanatu/declarative.git`
+
+2. Install dependencies:
+
+`npm install`
+
+3. Run server:
+
+`ng serve`
+
+_____________________________________________________________________________________________________
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.8.
 

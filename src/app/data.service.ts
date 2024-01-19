@@ -14,7 +14,7 @@ export class DataService {
   // Declarative approach to retrieve data from the REST API
   readonly products$ = this.http.get<Product[]>(this.apiUrl)
     .pipe(
-      tap( (x) => console.log('Declarative Approach in service', x)),
+      tap( (x) => console.log('Declarative Approach in Service', x)),
     );
 
     
