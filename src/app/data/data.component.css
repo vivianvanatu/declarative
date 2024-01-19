@@ -1,0 +1,25 @@
+.product-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: top;
+  }
+  
+  .product-item h3 {
+    margin-top: 0;
+  }
+  
+  .product-item p {
+    margin: 8px 0;
+  }
+  
+  .product-item strong {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
