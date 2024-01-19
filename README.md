@@ -4,15 +4,15 @@ This project illustrates the declarative approach versus the procedural approach
 
 1. Clone the repo:
 
-`git clone https://github.com/vivianvanatu/declarative.git`
+    `git clone https://github.com/vivianvanatu/declarative.git`
 
 2. Install dependencies:
 
-`npm install`
+    `npm install`
 
 3. Run server:
 
-`ng serve`
+    `ng serve`
 
 _____________________________________________________________________________________________________
 
