@@ -16,7 +16,7 @@ This project illustrates the declarative approach versus the procedural approach
 
 Go to [Using A Declarative Approach When Retrieving Data With RxJS Observables](https://wepri.net/blog/using-a-declarative-approach-when-retrieving-data-with-rxjs-observables) to read the explanations. Procedural approach code is commented and you need to import and inject the proper depedencies if you are using the commented code.
 
-Data is stored in app/data/data.ts file as an array of objects `ProductData` and `InMemoryWebApiModule` is used to simulate a Http connection to an API endpoint. Data from data.tsm file is presented to http calls. 
+Data is stored in app/data/data.ts file as an array of objects `ProductData` and `InMemoryWebApiModule` is used to simulate a Http connection to an API endpoint. Data from data.ts file is presented to http calls. 
 _____________________________________________________________________________________________________
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.8.
